@@ -14,5 +14,5 @@ Early results show that supply chain mapping solutions using Natural Language Pr
 
 ## This repository
 This repository provides supplemental material, such as annotation samples and a sample BiLSTM architecture.
-A pre-trained network, the full code or full training dataset cannot be provided. Please get in touch with [versed.ai](www.versed.ai) if you would like to get access for academic purposes or have a business interest. Versed AI is a Cambridge-based startup aiming to automatically extract supply chain maps from text.
+A pre-trained network, the full code or full training dataset cannot be provided. Please get in touch with [versed.ai](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. Versed AI is a Cambridge-based startup aiming to automatically extract supply chain maps from text.
 
