@@ -16,5 +16,11 @@ Early results show that supply chain mapping solutions using Natural Language Pr
 This repository provides supplemental material, such as annotation samples and a sample BiLSTM architecture.
 A pre-trained network, the full code or full training dataset cannot be provided.
 
-Please get in touch with [Versed.AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. Versed AI is a Cambridge-based startup aiming to automatically extract supply chain maps from text. Among other achievements, the Versed AI team has recently won the Entrepreneurial Postdocs of Cambridge business plan competition (including a £20k investment sponsored by Cambridge Enterprise).
+Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. 
 
+## Versed AI
+[Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
+
+The technology can text-mine millions of news articles, business reports and social media for relationships between organisations, companies, products, and people. This information can be used to create vast knowledge networks that artificial intelligence is applied to in order to discover patterns and infer missing or unknown knowledge. These networks have many useful applications including predicting future relations and discovering information from the network structure. The first application the team intends to focus on is to automatically extract supply chain maps.
+
+Among other achievements, the Versed AI team has recently won the Entrepreneurial Postdocs of Cambridge business plan competition (including a £20k investment sponsored by Cambridge Enterprise).
