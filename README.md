@@ -5,7 +5,9 @@ Supplemental material for the paper "Extracting supply chain maps from news arti
 
 (**) = Language Technology Lab, University of Cambridge, United Kingdom
 
-## Abstract
+This paper is result of the PhD work by Pascal Wichmann.
+
+## Paper abstract
 Supply chains are increasingly global, complex and multi-tiered. Consequently, companies often struggle to maintain complete visibility of their supply network. This poses a problem as visibility of the network structure is required for tasks like effectively managing supply chain risk. 
 
 In this paper, we discuss automated supply chain mapping as a means of maintaining structural visibility of a company's supply chain, and we use Deep Learning to automatically extract buyer-supplier relations from natural language text. 
