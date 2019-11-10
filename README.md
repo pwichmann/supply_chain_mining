@@ -13,8 +13,11 @@ In this paper, we discuss automated supply chain mapping as a means of maintaini
 Early results show that supply chain mapping solutions using Natural Language Processing and Deep Learning could enable companies to a) automatically generate rudimentary supply chain maps, b) verify existing supply chain maps, or c) augment existing maps with additional supplier information.
 
 ## This repository
-This repository provides supplemental material, such as annotation samples and a sample BiLSTM architecture.
-A pre-trained network, the full code or full training dataset cannot be provided.
+This repository provides supplemental material, such as:
+ * annotation samples and 
+ * a sample BiLSTM architecture.
+ 
+A pre-trained network, the full code or full training dataset cannot be provided for IP reasons.
 
 Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. 
 
