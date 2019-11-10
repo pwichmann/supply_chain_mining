@@ -16,7 +16,8 @@ Early results show that supply chain mapping solutions using Natural Language Pr
 
 ## This repository
 This repository provides supplemental material, such as:
- * annotation samples and 
+ * input samples (annotated sentences)
+ * output samples (predicted relations between organisations)
  * a sample BiLSTM architecture.
  
 A pre-trained network, the full code or full training dataset cannot be provided for IP reasons.
