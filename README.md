@@ -8,9 +8,9 @@ Supplemental material for the paper "Extracting supply chain maps from news arti
 This paper is result of the PhD work by Pascal Wichmann.
 
 ## Paper abstract
-Supply chains are increasingly global, complex and multi-tiered. Consequently, companies often struggle to maintain complete visibility of their supply network. This poses a problem as visibility of the network structure is required for tasks like effectively managing supply chain risk. 
+Supply chains are increasingly global, complex and multi-tiered. Consequently, companies often struggle to maintain complete visibility of their supply network. This poses a problem as visibility of the network structure is required for tasks like effectively managing supply chain risk.
 
-In this paper, we discuss automated supply chain mapping as a means of maintaining structural visibility of a company's supply chain, and we use Deep Learning to automatically extract buyer-supplier relations from natural language text. 
+In this paper, we discuss automated supply chain mapping as a means of maintaining structural visibility of a company's supply chain, and we use Deep Learning to automatically extract buyer-supplier relations from natural language text.
 
 Early results show that supply chain mapping solutions using Natural Language Processing and Deep Learning could enable companies to a) automatically generate rudimentary supply chain maps, b) verify existing supply chain maps, or c) augment existing maps with additional supplier information.
 
@@ -19,17 +19,17 @@ This repository provides supplemental material, such as:
  * input samples (annotated sentences)
  * output samples (predicted relations between organisations)
  * a sample BiLSTM architecture.
- 
+
 A pre-trained network, the full code or full training dataset cannot be provided for IP reasons.
 
-Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. 
+Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest.
 
 ### Input samples
 100 random training samples are provided in a single *.json file.
 
 The structure of each sample is shown by the following image:
 
-
+![Sample structure](/img/sample_structure.png)
 
 ## Versed AI
 [Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
