@@ -42,7 +42,7 @@ The samples follow the basic structure shown by the following image:
 
 Explanation:
 
-* ID is just a unique ID of this particular arc
+* ID is a unique ID of this particular arc. One sentence can result in many arcs as each pair of organisational named entities needs to be labelled.
 * originalText is the unaltered original text; a text sequence automatically classified as a single sentence
 * relations is a dictionary of the relations that require a label; each key corresponds to the unique id of such relation
 * Since multiple annotators can have redundantly labelled a relation, the votes for different relation labels are stored. In this case, annotator "5ac41236..." has voted for label "2".
