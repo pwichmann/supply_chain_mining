@@ -58,13 +58,14 @@ The structure of the CSV file is as follows:
 |---|---|---|---|---|---|
 
 The label definitions are as follows:
+
 | Label ID | Relation |
 |---|---|
 | 0 | Reject = no relevant relation detected |
-| 1 | B supplies A (the second-named organisation supplies the first-named) |
-| 2  | A supplies B (the first-named organisation supplies the second-named)  |
-| 3  | Non-directed buyer-supplier relations / ambiguous relations / partnerships & collaborations  |
-| 4  | Ownership relations / part-of relations |
+| 1 | B supplies A = the second-named organisation supplies the first-named |
+| 2 | A supplies B = the first-named organisation supplies the second-named |
+| 3 | Non-directed buyer-supplier relations; ambiguous relations; partnerships and collaborations  |
+| 4 | Ownership relations; part-of relations |
 
 ## Versed AI
 [Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
