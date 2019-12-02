@@ -38,9 +38,7 @@ Since the publication of this paper, Versed AI's models have been trained on dat
 
 The samples follow the basic structure shown by the following image:
 
-<img src="https://github.com/pwichmann/supply_chain_mining/blob/master/img/sample_structure.png" width="100">
-
-![Sample structure](/img/sample_structure.png)
+<img src="https://github.com/pwichmann/supply_chain_mining/blob/master/img/sample_structure.png" width="500">
 
 Explanation:
 
