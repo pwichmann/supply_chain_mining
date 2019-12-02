@@ -23,20 +23,20 @@ This repository provides supplemental material, such as:
  * a sample BiLSTM architecture.
 
 ### Limitations
-A pre-trained network, the full code or full training dataset cannot be provided for IP reasons.
+For IP reasons, a pre-trained network, the full code or full training dataset cannot be generally provided.
 
 ### Academic access
-However, you may request access to this in the case of a legitimate desire to reproduce the academic results. In this case, you may not use the provided data for commercial purposes nor can you further redistribute the data.
-Please create an issue with the subject "academic access", explain the motivation behind your request and specify the type of data you require.
+You may request access to the training dataset or pre-trained model in the case of a legitimate desire to reproduce the presented academic results. In this case, you may not use the provided data for commercial purposes nor can you further redistribute the data.
+Please create an issue with the subject "academic access", explain the motivation behind your request and specify the type of data you require. It is expected that you have a valid academic email address and have been working in a related field.
 
 ### Business interest
 Please get in touch with [Versed AI](https://www.versed.ai) if you have a commercial interest in "mining" supply chain networks from large quantities of text. Versed AI is aiming to provide access to supply chain maps as a knowledge-as-a-service.
-Versed AI's models have since been trained on datasets significantly larger than the one described in this paper.
+Since the publication of this paper, Versed AI's models have been trained on datasets significantly larger than the one described in this paper and are, thus, more accurate and robust than the initial prototype models.
 
 ### Input samples
 100 random training samples are provided in a single *.json file.
 
-The structure of each sample is shown by the following image:
+The samples follow the basic structure shown by the following image:
 
 ![Sample structure](/img/sample_structure.png)
 
@@ -46,7 +46,7 @@ Explanation:
 * originalText is the unaltered original text; a text sequence automatically classified as a single sentence
 * relations is a dictionary of the relations that require a label; each key corresponds to the unique id of such relation
 * Since multiple annotators can have redundantly labelled a relation, the votes for different relation labels are stored. In this case, annotator "5ac41236..." has voted for label "2".
-* x represents the feature vector and, thus, the sentence where organisational named entities have been masked. In this case, only two organisational named entities are present. The first one gets masked as __NE_FROM__, the second gets masked at __NE_TO__.
+* x represents the feature vector and, thus, the sentence where organisational named entities have been masked. In this case, only two organisational named entities are present. The first one gets masked as \_\_NE\_FROM\_\_, the second gets masked at \_\_NE\_TO\_\_.
 * y represents the response or target variable, in this case the assigned label "2". In case of multiple votes, a simple majority vote determines the winning label.
 
 ## Versed AI
