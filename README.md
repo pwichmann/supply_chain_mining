@@ -49,6 +49,14 @@ Explanation:
 * x represents the feature vector and, thus, the sentence where organisational named entities have been masked. In this case, only two organisational named entities are present. The first one gets masked as \_\_NE\_FROM\_\_, the second gets masked at \_\_NE\_TO\_\_.
 * y represents the response or target variable, in this case the assigned label "2". In case of multiple votes, a simple majority vote determines the winning label.
 
+### Output samples
+
+The output samples contain 200 randomly sampled predictions of the trained BiLSTM model.
+The structure of the CSV file is as follows:
+
+| Index | Masked sentence text | Original sentence text | Predicted label | Confidence score | ID of the predicted label |
+
+
 ## Versed AI
 [Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
 
