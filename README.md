@@ -15,14 +15,23 @@ In this paper, we discuss automated supply chain mapping as a means of maintaini
 Early results show that supply chain mapping solutions using Natural Language Processing and Deep Learning could enable companies to a) automatically generate rudimentary supply chain maps, b) verify existing supply chain maps, or c) augment existing maps with additional supplier information.
 
 ## This repository
+
+### Contents
 This repository provides supplemental material, such as:
  * input samples (annotated sentences)
  * output samples (predicted relations between organisations)
  * a sample BiLSTM architecture.
 
+### Limitations
 A pre-trained network, the full code or full training dataset cannot be provided for IP reasons.
 
-Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest.
+### Academic access
+However, you may request access to this in the case of a legitimate desire to reproduce the academic results. In this case, you may not use the provided data for commercial purposes nor can you further redistribute the data.
+Please create an issue with the subject "academic access", explain the motivation behind your request and specify the type of data you require.
+
+### Business interest
+Please get in touch with [Versed AI](https://www.versed.ai) if you have a commercial interest in "mining" supply chain networks from large quantities of text. Versed AI is aiming to provide access to supply chain maps as a knowledge-as-a-service.
+Versed AI's models have since been trained on datasets significantly larger than the one described in this paper.
 
 ### Input samples
 100 random training samples are provided in a single *.json file.
@@ -31,9 +40,21 @@ The structure of each sample is shown by the following image:
 
 ![Sample structure](/img/sample_structure.png)
 
+Explanation:
+
+* ID is just a unique ID of this particular arc
+* originalText is the unaltered original text; a text sequence automatically classified as a single sentence
+* relations is a dictionary of the relations that require a label; each key corresponds to the unique id of such relation
+* Since multiple annotators can have redundantly labelled a relation, the votes for different relation labels are stored. In this case, annotator "5ac41236..." has voted for label "2".
+* x represents the feature vector and, thus, the sentence where organisational named entities have been masked. In this case, only two organisational named entities are present. The first one gets masked as __NE_FROM__, the second gets masked at __NE_TO__.
+* y represents the response or target variable, in this case the assigned label "2". In case of multiple votes, a simple majority vote determines the winning label.
+
 ## Versed AI
 [Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
 
 The technology can text-mine millions of news articles, business reports and social media for relationships between organisations, companies, products, and people. This information can be used to create vast knowledge networks that artificial intelligence is applied to in order to discover patterns and infer missing or unknown knowledge. These networks have many useful applications including predicting future relations and discovering information from the network structure. The first application the team intends to focus on is to automatically extract supply chain maps.
 
 Among other achievements, the Versed AI team has recently won the Entrepreneurial Postdocs of Cambridge business plan competition (including a £20k investment sponsored by Cambridge Enterprise).
+
+## License
+The provided material is copyrighted and may not be used for commercial purposes.
