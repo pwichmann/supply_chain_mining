@@ -24,6 +24,13 @@ A pre-trained network, the full code or full training dataset cannot be provided
 
 Please get in touch with [Versed AI](https://www.versed.ai) if you would like to get access for academic purposes or have a business interest. 
 
+### Input samples
+100 random training samples are provided in a single *.json file.
+
+The structure of each sample is shown by the following image:
+
+
+
 ## Versed AI
 [Versed AI](https://www.versed.ai) is a new Cambridge University spin-out being formed by a post-doc and post-graduates from several different university departments. The team has developed Natural Language Processing (NLP) and Machine Learning (ML) technology for business intelligence purposes.
 
