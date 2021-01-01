@@ -72,7 +72,7 @@ The label definitions are as follows:
 
 The technology can text-mine millions of news articles, business reports and social media for relationships between organisations, companies, products, and people. This information can be used to create vast knowledge networks that artificial intelligence is applied to in order to discover patterns and infer missing or unknown knowledge. These networks have many useful applications including predicting future relations and discovering information from the network structure. The first application the team intends to focus on is to automatically extract supply chain maps.
 
-Among other achievements, the Versed AI team has recently won the Entrepreneurial Postdocs of Cambridge business plan competition (including a £20k investment sponsored by Cambridge Enterprise).
+Among other achievements, the Versed AI team has won the Entrepreneurial Postdocs of Cambridge business plan competition (including a £20k investment sponsored by Cambridge Enterprise).
 
 ## License
 The provided material is copyrighted and may not be used for commercial purposes.
