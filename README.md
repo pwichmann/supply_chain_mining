@@ -14,6 +14,12 @@ In this paper, we discuss automated supply chain mapping as a means of maintaini
 
 Early results show that supply chain mapping solutions using Natural Language Processing and Deep Learning could enable companies to a) automatically generate rudimentary supply chain maps, b) verify existing supply chain maps, or c) augment existing maps with additional supplier information.
 
+## Context
+
+The paper and related work was done as part of my PhD at [DIAL](https://www.ifm.eng.cam.ac.uk/research/dial/), a research group at the [Institute for Manufacturing (IfM)](https://www.ifm.eng.cam.ac.uk) at the University of Cambridge.
+
+The [repository for my PhD thesis](https://github.com/pwichmann/phd_thesis) provides some additional pointers and supplementary material.
+
 ## This repository
 
 ### Contents
