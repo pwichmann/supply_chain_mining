@@ -37,7 +37,7 @@ Please create an issue with the subject "academic access", explain the motivatio
 
 ### Business interest
 Please get in touch with [Versed AI](https://www.versed.ai) if you have a commercial interest in "mining" supply chain networks from large quantities of text. Versed AI is aiming to provide access to supply chain maps as a knowledge-as-a-service.
-Since the publication of this paper, Versed AI's models have been trained on datasets significantly larger than the one described in this paper and are, thus, more accurate and robust than the initial prototype models.
+Since the publication of this paper, Versed AI's models have been trained on datasets significantly larger than the one described in this paper and are, thus, more accurate and robust than the initial prototype models. Versed AI also uses cutting edge NLP methods; the model architectures of my PhD are already outdated given the incredibly fast pace of research in Deep Learning and NLP in recent years.
 
 ### Input samples
 100 random training samples are provided in a single *.json file.
