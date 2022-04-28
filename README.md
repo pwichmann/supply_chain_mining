@@ -33,7 +33,12 @@ For IP reasons, a pre-trained network, the full code or full training dataset ca
 
 ### Academic access
 You may request access to the training dataset or pre-trained model in the case of a legitimate desire to reproduce the presented academic results. In this case, you may not use the provided data for commercial purposes nor can you further redistribute the data.
-Please create an issue with the subject "academic access", explain the motivation behind your request and specify the type of data you require. It is expected that you have a valid academic email address and have been working in a related field.
+
+
+Please fill out the following Google form to request access to the repository with training data:
+[Link to form](https://forms.gle/oEajojtS4m5DPUct6).
+For technical and predominantly copyright reasons, the data repository does *not* contain the gigabytes of news texts.
+
 
 ### Business interest
 Please get in touch with [Versed AI](https://www.versed.ai) if you have a commercial interest in "mining" supply chain networks from large quantities of text. Versed AI is aiming to provide access to supply chain maps as a knowledge-as-a-service.
